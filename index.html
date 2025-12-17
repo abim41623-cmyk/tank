@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsip Tank Perang Dunia II</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Database Tank Perang Dunia II</h1>
+        <p>Menjelajahi kekuatan lapis baja yang mengubah sejarah.</p>
+    </header>
+
+    <main class="container">
+        <section class="tank-card" id="tiger">
+            <div class="tank-info">
+                <h2>Tiger I (Panzerkampfwagen VI)</h2>
+                <p class="origin">Asal: Jerman</p>
+                <div class="image-placeholder">
+                    <img src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?q=80&w=500" alt="Tiger I Tank">
+                </div>
+                <table class="specs">
+                    <tr><td>Berat</td><td>54 Ton</td></tr>
+                    <tr><td>Senjata Utama</td><td>88 mm KwK 36</td></tr>
+                    <tr><td>Zirah Depan</td><td>100 mm</td></tr>
+                    <tr><td>Kecepatan</td><td>38 km/jam</td></tr>
+                </table>
+                <button onclick="showDetails('tiger')">Lihat Detail</button>
+            </div>
+        </section>
+
+        <section class="tank-card" id="sherman">
+            <div class="tank-info">
+                <h2>M4 Sherman</h2>
+                <p class="origin">Asal: Amerika Serikat</p>
+                <div class="image-placeholder">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=500" alt="M4 Sherman">
+                </div>
+                <table class="specs">
+                    <tr><td>Berat</td><td>30 Ton</td></tr>
+                    <tr><td>Senjata Utama</td><td>75 mm / 76 mm</td></tr>
+                    <tr><td>Zirah Depan</td><td>63 mm</td></tr>
+                    <tr><td>Kecepatan</td><td>48 km/jam</td></tr>
+                </table>
+                <button onclick="showDetails('sherman')">Lihat Detail</button>
+            </div>
+        </section>
+
+        <section class="tank-card" id="t34">
+            <div class="tank-info">
+                <h2>T-34/85</h2>
+                <p class="origin">Asal: Uni Soviet</p>
+                <div class="image-placeholder">
+                    <img src="https://images.unsplash.com/photo-1620310214275-538466185671?q=80&w=500" alt="T-34 Tank">
+                </div>
+                <table class="specs">
+                    <tr><td>Berat</td><td>32 Ton</td></tr>
+                    <tr><td>Senjata Utama</td><td>85 mm ZiS-S-53</td></tr>
+                    <tr><td>Zirah Depan</td><td>45 mm (Miring)</td></tr>
+                    <tr><td>Kecepatan</td><td>55 km/jam</td></tr>
+                </table>
+                <button onclick="showDetails('t34')">Lihat Detail</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
